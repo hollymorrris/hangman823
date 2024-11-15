@@ -1,16 +1,16 @@
 # %%
 import random
 
-word_list = ["mango", "blueberries", "strawberries", "banana", "pineapple"]
-word = random.choice(word_list)
-print(word)
+names_of_favourite_fruit_list = ["mango", "blueberries", "strawberries", "banana", "pineapple"]
+name_of_favourite_fruit = random.choice(names_of_favourite_fruit_list)
+print(name_of_favourite_fruit)
 
 # %%
 print("Enter a single letter:")
 
-guess = input()
+guessed_letter = input()
 
-if len(guess) == 1 and guess.isalpha():
+if len(guessed_letter) == 1 and guessed_letter.isalpha():
     print("Good guess!")
 
 else: 
