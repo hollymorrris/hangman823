@@ -50,7 +50,7 @@ def play_game(word_list):
 			print("Congratulations. You won the game!")
 			break
 
-word_list = ["giraffe", "duvet", "laptop", "car", "painting", "basket", "music"]
+word_list = ["mango", "blueberries", "strawberries", "banana", "pineapple"]
 play_game(word_list)
 
 # %%
