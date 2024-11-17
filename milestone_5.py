@@ -69,7 +69,7 @@ def play_game(word_list):
 	This function is used to run all of the code to run the hangman game.
 
 	Args:
-		word_list (str): 
+		word_list (str): the list of words from which computer generates random word.
 
 	Returns: string to represent if user has won or lost.
 	
