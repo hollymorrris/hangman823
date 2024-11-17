@@ -36,6 +36,8 @@ class Hangman:
 				self.check_guess(guess)
 				self.list_of_guesses.append(guess)
 
-word_list = ["giraffe", "duvet", "laptop", "car", "painting", "basket", "music"]
+word_list = ["mango", "blueberries", "strawberries", "banana", "pineapple"]
 game = Hangman(word_list)
 game.ask_for_input()
+
+# %%
